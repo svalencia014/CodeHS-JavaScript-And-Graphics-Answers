@@ -1,19 +1,19 @@
-var SECRET = "abc123";
+let SECRET = "abc123";
 
-function start()
+function main()
 {
-    var guess;
-    while(guess != SECRET){
-        var guess = readLine("What is the password? ");
+    let guess;
+    while(true){
+        let guess = readLine("What is the password? ");
         
         if(guess == SECRET){
-            println("Password correct");
+            console.log("Password correct");
             break;
         }
         else{
-            println("Sorry, that password does not match.");
-        }
-        
-    }
-	
+            console.log("Sorry, that password does not match.");
+        } 
+    }	
 }
+
+main();
