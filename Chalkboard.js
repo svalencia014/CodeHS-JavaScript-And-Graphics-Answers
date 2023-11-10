@@ -1,5 +1,7 @@
-function start(){
-    for(var i = 0; i < 100; i++){
-        println("I will not come late to school");
+function main(){
+    for(let i = 0; i < 100; i++){
+        console.log("I will not come late to school");
     }
 }
+
+main();
